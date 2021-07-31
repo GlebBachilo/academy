@@ -8,7 +8,6 @@ public class MinMax<T extends Number & Serializable> {
 
     public T[] arr;
 
-
     public MinMax(T[] arr) {
         this.arr = arr;
     }
