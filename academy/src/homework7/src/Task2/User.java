@@ -5,9 +5,9 @@ import java.util.Objects;
 
 public class User extends Person {
 
-    private String login;
+    public  String login;
     private String password;
-    private String email;
+    public  String email;
 
     public User(String firstName, String lastName, int age, String dateOfBirth,
                 String login, String password, String email) {
@@ -15,6 +15,10 @@ public class User extends Person {
         this.login = login;
         this.password = password;
         this.email = email;
+    }
+
+    public User() {
+        super();
     }
 
     public String getLogin() {

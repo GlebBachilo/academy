@@ -5,10 +5,14 @@ import java.util.Objects;
 
 public class Person {
 
-    protected String firstName;
+    public  String firstName;
     protected String lastName;
     protected int age;
     protected String dateOfBirth;
+
+    public Person(){
+        super();
+    }
 
     public Person(String firstName, String lastName, int age, String dateOfBirth) {
         super();
